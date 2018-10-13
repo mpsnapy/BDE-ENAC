@@ -12,6 +12,7 @@
 		ED5546532172133000510996 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED5546512172133000510996 /* Main.storyboard */; };
 		ED5546552172133000510996 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED5546542172133000510996 /* Assets.xcassets */; };
 		ED5546582172133000510996 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED5546562172133000510996 /* LaunchScreen.storyboard */; };
+		ED554664217224FB00510996 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ED554663217224F300510996 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		ED5546542172133000510996 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED5546572172133000510996 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED5546592172133000510996 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED554663217224F300510996 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +56,47 @@
 		ED55464C2172133000510996 /* BDE ENAC */ = {
 			isa = PBXGroup;
 			children = (
+				ED55466221721EB300510996 /* Plists */,
+				ED55466121721EA400510996 /* Model */,
+				ED55466021721E9F00510996 /* View */,
+				ED55465F21721E9800510996 /* Controller */,
 				ED55464D2172133000510996 /* AppDelegate.swift */,
 				ED55464F2172133000510996 /* ViewController.swift */,
 				ED5546512172133000510996 /* Main.storyboard */,
 				ED5546542172133000510996 /* Assets.xcassets */,
 				ED5546562172133000510996 /* LaunchScreen.storyboard */,
-				ED5546592172133000510996 /* Info.plist */,
 			);
 			path = "BDE ENAC";
+			sourceTree = "<group>";
+		};
+		ED55465F21721E9800510996 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		ED55466021721E9F00510996 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ED55466121721EA400510996 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		ED55466221721EB300510996 /* Plists */ = {
+			isa = PBXGroup;
+			children = (
+				ED5546592172133000510996 /* Info.plist */,
+				ED554663217224F300510996 /* GoogleService-Info.plist */,
+			);
+			path = Plists;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +159,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED5546582172133000510996 /* LaunchScreen.storyboard in Resources */,
+				ED554664217224FB00510996 /* GoogleService-Info.plist in Resources */,
 				ED5546552172133000510996 /* Assets.xcassets in Resources */,
 				ED5546532172133000510996 /* Main.storyboard in Resources */,
 			);
@@ -276,7 +312,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9AMHU36X3Y;
-				INFOPLIST_FILE = "BDE ENAC/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/BDE ENAC/Plists/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "M.P..BDE-ENAC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -291,7 +327,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9AMHU36X3Y;
-				INFOPLIST_FILE = "BDE ENAC/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/BDE ENAC/Plists/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "M.P..BDE-ENAC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
