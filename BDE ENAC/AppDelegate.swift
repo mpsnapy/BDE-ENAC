@@ -10,14 +10,29 @@ import UIKit
 import Firebase
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate, SWRevealViewControllerDelegate {
 
     var window: UIWindow?
+    var viewController: SWRevealViewController?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         FirebaseApp.configure()
         
+        self.window = UIWindow(frame: UIScreen.main.bounds)
         
+        let frontViewController = AcceuilController()
+        let rearViewController = MenuController()
+        
+        let frontNavigationController = UINavigationController(rootViewController: frontViewController)
+        
+        let reavealController = SWRevealViewController(rearViewController: rearViewController, frontViewController: frontNavigationController)
+        
+        reavealController?.delegate = self
+        
+        self.viewController = reavealController
+        
+        self.window?.rootViewController = self.viewController
+        self.window?.makeKeyAndVisible()
         
         return true
     }

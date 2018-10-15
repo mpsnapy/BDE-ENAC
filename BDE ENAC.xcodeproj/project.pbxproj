@@ -8,28 +8,54 @@
 
 /* Begin PBXBuildFile section */
 		CC3022F205E301C96C0F14F0 /* Pods_BDE_ENAC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0A1440630BAB00B244D0411 /* Pods_BDE_ENAC.framework */; };
+		ED52920B2172AA9D00B5BC09 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ED52920A2172AA9D00B5BC09 /* GoogleService-Info.plist */; };
+		ED52920E2174B20100B5BC09 /* MDPOublieController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED52920C2174B20100B5BC09 /* MDPOublieController.swift */; };
+		ED52920F2174B20100B5BC09 /* MDPOublieController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED52920D2174B20100B5BC09 /* MDPOublieController.xib */; };
+		ED5292122174BBC900B5BC09 /* NouvelUtilisateurController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5292102174BBC900B5BC09 /* NouvelUtilisateurController.swift */; };
+		ED5292132174BBC900B5BC09 /* NouvelUtilisateurController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED5292112174BBC900B5BC09 /* NouvelUtilisateurController.xib */; };
 		ED54FEB421723DDC00936631 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED54FEB321723DDC00936631 /* SWRevealViewController.m */; };
+		ED54FEB82172417F00936631 /* AcceuilController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED54FEB62172417F00936631 /* AcceuilController.swift */; };
+		ED54FEB92172417F00936631 /* AcceuilController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED54FEB72172417F00936631 /* AcceuilController.xib */; };
+		ED54FEBC2172456F00936631 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED54FEBA2172456F00936631 /* MenuController.swift */; };
+		ED54FEBD2172456F00936631 /* MenuController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED54FEBB2172456F00936631 /* MenuController.xib */; };
+		ED54FEC02172519400936631 /* ConnexionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED54FEBE2172519400936631 /* ConnexionController.swift */; };
+		ED54FEC12172519400936631 /* ConnexionController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED54FEBF2172519400936631 /* ConnexionController.xib */; };
+		ED54FEC721728B8700936631 /* Alerte.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED54FEC621728B8700936631 /* Alerte.swift */; };
+		ED54FEC921728C9000936631 /* Constantes.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED54FEC821728C9000936631 /* Constantes.swift */; };
+		ED54FECC21728CE600936631 /* FirebaseErreur.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED54FECB21728CE600936631 /* FirebaseErreur.swift */; };
+		ED54FECE21728CF300936631 /* Refs.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED54FECD21728CF300936631 /* Refs.swift */; };
 		ED55464E2172133000510996 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED55464D2172133000510996 /* AppDelegate.swift */; };
-		ED5546532172133000510996 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED5546512172133000510996 /* Main.storyboard */; };
 		ED5546552172133000510996 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED5546542172133000510996 /* Assets.xcassets */; };
 		ED5546582172133000510996 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED5546562172133000510996 /* LaunchScreen.storyboard */; };
-		ED554664217224FB00510996 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ED554663217224F300510996 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0897049B326D8AB569803240 /* Pods-BDE ENAC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BDE ENAC.release.xcconfig"; path = "Pods/Target Support Files/Pods-BDE ENAC/Pods-BDE ENAC.release.xcconfig"; sourceTree = "<group>"; };
 		0B803A3225085FB79B604518 /* Pods-BDE ENAC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BDE ENAC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BDE ENAC/Pods-BDE ENAC.debug.xcconfig"; sourceTree = "<group>"; };
 		C0A1440630BAB00B244D0411 /* Pods_BDE_ENAC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BDE_ENAC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED52920A2172AA9D00B5BC09 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		ED52920C2174B20100B5BC09 /* MDPOublieController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MDPOublieController.swift; sourceTree = "<group>"; };
+		ED52920D2174B20100B5BC09 /* MDPOublieController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MDPOublieController.xib; sourceTree = "<group>"; };
+		ED5292102174BBC900B5BC09 /* NouvelUtilisateurController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NouvelUtilisateurController.swift; sourceTree = "<group>"; };
+		ED5292112174BBC900B5BC09 /* NouvelUtilisateurController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NouvelUtilisateurController.xib; sourceTree = "<group>"; };
 		ED54FEB121723DDB00936631 /* BDE ENAC-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BDE ENAC-Bridging-Header.h"; sourceTree = "<group>"; };
 		ED54FEB221723DDC00936631 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		ED54FEB321723DDC00936631 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		ED54FEB62172417F00936631 /* AcceuilController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcceuilController.swift; sourceTree = "<group>"; };
+		ED54FEB72172417F00936631 /* AcceuilController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AcceuilController.xib; sourceTree = "<group>"; };
+		ED54FEBA2172456F00936631 /* MenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
+		ED54FEBB2172456F00936631 /* MenuController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuController.xib; sourceTree = "<group>"; };
+		ED54FEBE2172519400936631 /* ConnexionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnexionController.swift; sourceTree = "<group>"; };
+		ED54FEBF2172519400936631 /* ConnexionController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ConnexionController.xib; sourceTree = "<group>"; };
+		ED54FEC621728B8700936631 /* Alerte.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerte.swift; sourceTree = "<group>"; };
+		ED54FEC821728C9000936631 /* Constantes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constantes.swift; sourceTree = "<group>"; };
+		ED54FECB21728CE600936631 /* FirebaseErreur.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseErreur.swift; sourceTree = "<group>"; };
+		ED54FECD21728CF300936631 /* Refs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Refs.swift; sourceTree = "<group>"; };
 		ED55464A2172133000510996 /* BDE ENAC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BDE ENAC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED55464D2172133000510996 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		ED5546522172133000510996 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ED5546542172133000510996 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED5546572172133000510996 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED5546592172133000510996 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ED554663217224F300510996 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +83,18 @@
 			children = (
 				ED54FEB221723DDC00936631 /* SWRevealViewController.h */,
 				ED54FEB321723DDC00936631 /* SWRevealViewController.m */,
+				ED54FEC821728C9000936631 /* Constantes.swift */,
 			);
 			path = Ressources;
+			sourceTree = "<group>";
+		};
+		ED54FECA21728CAF00936631 /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				ED54FECB21728CE600936631 /* FirebaseErreur.swift */,
+				ED54FECD21728CF300936631 /* Refs.swift */,
+			);
+			path = Firebase;
 			sourceTree = "<group>";
 		};
 		ED5546412172133000510996 = {
@@ -84,12 +120,12 @@
 			children = (
 				ED55464D2172133000510996 /* AppDelegate.swift */,
 				ED54FEB121723DDB00936631 /* BDE ENAC-Bridging-Header.h */,
+				ED54FECA21728CAF00936631 /* Firebase */,
 				ED54FEB521723EBC00936631 /* Ressources */,
 				ED55466221721EB300510996 /* Plists */,
 				ED55466121721EA400510996 /* Model */,
 				ED55466021721E9F00510996 /* View */,
 				ED55465F21721E9800510996 /* Controller */,
-				ED5546512172133000510996 /* Main.storyboard */,
 				ED5546542172133000510996 /* Assets.xcassets */,
 				ED5546562172133000510996 /* LaunchScreen.storyboard */,
 			);
@@ -99,6 +135,16 @@
 		ED55465F21721E9800510996 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				ED54FEB62172417F00936631 /* AcceuilController.swift */,
+				ED54FEB72172417F00936631 /* AcceuilController.xib */,
+				ED54FEBA2172456F00936631 /* MenuController.swift */,
+				ED54FEBB2172456F00936631 /* MenuController.xib */,
+				ED54FEBE2172519400936631 /* ConnexionController.swift */,
+				ED54FEBF2172519400936631 /* ConnexionController.xib */,
+				ED52920C2174B20100B5BC09 /* MDPOublieController.swift */,
+				ED52920D2174B20100B5BC09 /* MDPOublieController.xib */,
+				ED5292102174BBC900B5BC09 /* NouvelUtilisateurController.swift */,
+				ED5292112174BBC900B5BC09 /* NouvelUtilisateurController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -113,6 +159,7 @@
 		ED55466121721EA400510996 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				ED54FEC621728B8700936631 /* Alerte.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -121,7 +168,7 @@
 			isa = PBXGroup;
 			children = (
 				ED5546592172133000510996 /* Info.plist */,
-				ED554663217224F300510996 /* GoogleService-Info.plist */,
+				ED52920A2172AA9D00B5BC09 /* GoogleService-Info.plist */,
 			);
 			path = Plists;
 			sourceTree = "<group>";
@@ -198,10 +245,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED5292132174BBC900B5BC09 /* NouvelUtilisateurController.xib in Resources */,
+				ED54FEB92172417F00936631 /* AcceuilController.xib in Resources */,
+				ED54FEBD2172456F00936631 /* MenuController.xib in Resources */,
+				ED52920F2174B20100B5BC09 /* MDPOublieController.xib in Resources */,
 				ED5546582172133000510996 /* LaunchScreen.storyboard in Resources */,
-				ED554664217224FB00510996 /* GoogleService-Info.plist in Resources */,
+				ED54FEC12172519400936631 /* ConnexionController.xib in Resources */,
 				ED5546552172133000510996 /* Assets.xcassets in Resources */,
-				ED5546532172133000510996 /* Main.storyboard in Resources */,
+				ED52920B2172AA9D00B5BC09 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,22 +325,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED54FEBC2172456F00936631 /* MenuController.swift in Sources */,
+				ED54FECE21728CF300936631 /* Refs.swift in Sources */,
 				ED55464E2172133000510996 /* AppDelegate.swift in Sources */,
+				ED5292122174BBC900B5BC09 /* NouvelUtilisateurController.swift in Sources */,
+				ED54FEC02172519400936631 /* ConnexionController.swift in Sources */,
 				ED54FEB421723DDC00936631 /* SWRevealViewController.m in Sources */,
+				ED54FEC721728B8700936631 /* Alerte.swift in Sources */,
+				ED54FECC21728CE600936631 /* FirebaseErreur.swift in Sources */,
+				ED54FEC921728C9000936631 /* Constantes.swift in Sources */,
+				ED54FEB82172417F00936631 /* AcceuilController.swift in Sources */,
+				ED52920E2174B20100B5BC09 /* MDPOublieController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		ED5546512172133000510996 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				ED5546522172133000510996 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		ED5546562172133000510996 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
